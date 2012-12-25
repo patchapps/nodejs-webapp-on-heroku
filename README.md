@@ -13,11 +13,17 @@ Step 2) Install the Heroku command line client
 
 Step 3) Login to Heroku via the command line:
 
-heroku auth:login
+	heroku auth:login
 
-	Step 4) Install git
+Step 4) Install git
 
 Step 5) Install Node.js
+	
+	On Ubuntu
+	sudo apt-get install python-software-properties
+	sudo add-apt-repository ppa:chris-lea/node.js
+	sudo apt-get update
+	sudo apt-get install nodejs npm
 
 Step 6) Create a Node.js app
 
